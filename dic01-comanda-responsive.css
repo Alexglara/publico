@@ -1,0 +1,85 @@
+
+/* 
+web o pagina: Comanda del Chiringuito
+alumno: Alejandro Gordo 
+fecha: 8 diciembre 2020
+*/
+
+
+ /* con esto conseguimos que los bordes coincidan */
+body {
+	margin:0px;	
+}
+p {
+	margin:0px;
+	
+}
+/* con esto conseguimos que los bordes coincidan */
+
+/*  He utilizado un sistema de clases para definir el estilo de cada Div, ya que asi me resultaba mas comodo usarlo en HTML  */
+/* la clase contenido con una anchura del 75% de la pagina  */
+.contenido {
+	background-color:gainsboro;
+	width:75%;	
+   text-align: center;
+    padding-top: 25px;
+}
+/* El menu de la derecha tiene un margin de 5 px por cada lado dentro del div en el que se encuentra para dar es efecto de estar dentro de un cuadrado y una anchura de 25% que junto al 75% de la clase .contenido ocupan el 100% */
+.menuDerecha {
+    text-align: center;
+	width:25%;
+	margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+	background-color:white;
+}
+/* en el pie de pagina ajustamos el ancho que ocupe el 100% de la pantalla, con una altura de 150px  */
+.piePagina {
+	background-color:white;
+    text-align: center;
+    float:left;
+    width:100%;
+    height:150px;
+}
+/*  Esta clase define los parametros de la cabezara con los datos dados en el enunciado del ejercicio  */
+.cabecera{
+ background-color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+     height:150px;
+     
+}
+/*  La altura de esta clase define la altura de los divs menu y contenido ya que estan dentro de este y lo utilizamos como contenedor   */
+.cajaVariable2 {
+    display:flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    height:350px;
+    background-color: #f2f2f2f2;
+}
+/* esta clase define el color del div que utilizamos de recuadro negro  */
+.fondonegro{
+   background-color: black;
+    
+    
+
+}
+
+
+     
+
+
+@media screen and (max-width:600px){
+		/* solo se aplica cuando el viewport es estrecho, como máximo de 600 puntos */
+		/* hay que definir aquí selectores y estilos */
+		/* al menos para las columnas ancha y estrecha de la zona de contenidos de la pagina */
+		
+		
+		
+		
+
+}
+
