@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: practicas en clases de LLMM
+autor: Carlos Boni
+fecha: Febrero 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- Fuentes de google -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Ajuste de texto alrededor de imagenes</title>
+	
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			box-sizing:border-box;
+		}
+
+		body {
+			background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
+		}
+		main{
+		overflow:auto;
+		height:200px;
+		}
+		.imgI {
+			float:left;
+			margin:10px;
+			width:30%;
+			height:auto;
+			object-fit:cover;
+		}
+		ul {
+   font-family: 'Staatliches', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: CornflowerBlue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #0984CA;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: DodgerBlue; }
+	.menu{
+   position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+		min-height:30px;
+		width:100%;
+		background-color:CornflowerBlue;
+		border-style: outset;
+		border-color:Navy;
+		border-style: hidden;
+        border-width: 8px;
+		border-left-style: solid;
+		
+		}
+		
+	</style>
+	
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+	<div class="menu">
+	
+	<ul>
+  <li><a  href="file:///C:/Users/1DAM/Desktop/Condor/menusuperior.html">Pagina principal</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Links de utilidad</a>
+    <div class="dropdown-content">
+      <a href="https://www.reddit.com/" target="_blank" >Reddit</a>
+      <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">Wikipedia</a>
+      <a href="https://www.rae.es/" target="_blank" >Rae</a>
+  <li><a class="active" href="file:///C:/Users/1DAM/Desktop/Condor/condor.html">Condor</a></li>
+  <li><a href="#about">Prueba</a></li>
+</ul>
+</div>
+		<h1>AJUSTE DE TEXTO ALREDEDOR DE IMAGENES</h1>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<img class="imgI" src="Colca-condor-c03.jpg"/>
+		<p>Es una de las aves más longevas del mundo, viviente hasta 75 años. Su plumaje es denso, lo que lo mantiene abrigado en climas gélidos.</p>
+		<p>El polluelo intenta volar a los 6 meses de haber nacido, y a los 9 meses ya está listo para acompañar a sus padres, aprendiendo a sobrevivir. Pasado 2 años está listo para mostrar su lugar sobre la carroña.</p>
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+
+	</script>
+</body>
+</html>

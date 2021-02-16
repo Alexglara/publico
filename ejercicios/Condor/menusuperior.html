@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Carlos Boni
+fecha: Diciembre 2020
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Titulo en Etiqueta del Navegador</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		body {
+		 	background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
+		}
+	ul {
+	
+	font-family: 'Staatliches', cursive;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: CornflowerBlue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #0984CA;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: DodgerBlue; }
+  
+	.menu{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+		min-height:30px;
+		width:100%;
+		background-color:CornflowerBlue;
+		border-style: outset;
+		border-color:Navy;
+		border-style: hidden;
+        border-width: 8px;
+		border-left-style: solid;
+		
+		}
+		@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js" ></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	
+	<div class="menu">
+	
+	<ul>
+  <li><a class="active" href="file:///C:/Users/1DAM/Desktop/Condor/menusuperior.html">Pagina principal</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Links de utilidad</a>
+    <div class="dropdown-content">
+      <a href="https://www.reddit.com/" target="_blank" >Reddit</a>
+      <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">Wikipedia</a>
+      <a href="https://www.rae.es/" target="_blank" >Rae</a>
+  <li><a href="file:///C:/Users/1DAM/Desktop/Condor/condor.html">Condor</a></li>
+  <li><a href="#about">Prueba</a></li>
+</ul>
+	</div>
+		<h1>TÍTULO PRINCIPAL VISIBLE</h1>
+		<br/>
+	
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+	<p>ESTO ES PARA RELLENAR HUECO </p>
+	
+
+	</main>
+    <p> Aureliano nació en Dacia ripensis o Sirmio (ahora Sremska Mitrovica, Serbia), Eutropio2​ dice que nació en Dacia. La Historia Augusta3​ defiende el nacimiento en Sirmio o Dacia, pero narra también orígenes en Mesia;4​ Aurelio Víctor5​ dice que nació entre Dacia y Macedonia.6​ hijo de una oscura familia de provincias; su padre era arrendatario de un senador de nombre Aurelio, que dio su nombre a la familia.7​ Aureliano probablemente se unió al ejército en 235, con 20 años de edad.8​ De su juventud se sabe poco ya que se supone que las historias documentadas en la "Historia Augusta" nos son de muy dudosa credibilidad. Estaba casado con Ulpia Severina, de quien se conocen muy pocos datos, y se sabe que tenía una hija.
+
+Se distinguió militarmente durante la tumultuosa época de mediados de siglo, y sus éxitos como comandante de infantería. Finalmente le acercaron al entorno del emperador Galieno. Aureliano sirvió como general en varias guerras, y su éxito al final hizo de él el hombre de confianza y dux equitum (comandante de caballería) del ejército del emperador. En 268, su caballería derrotó de forma aplastante a la poderosa caballería goda en la batalla de Naissus.9​ No está clara la cronología, por lo que no resulta claro si durante dicha batalla gobernaba todavía el emperador Galieno o si este había sido ya asesinado y había tomado el mando el emperador Claudio II Gótico. En cualquier caso, en un momento dado Galieno viajó a Italia para enfrentarse a Aureolo, un antiguo general suyo que ahora intentaba usurparle el trono. Galieno logró poner en fuga a Aureolo y encerrarle en Mediolanum, comenzando un asedio a la ciudad. Sin embargo, durante el asedio el emperador Galieno fue asesinado. Según una fuente, Aureliano participó en el asesinato de Galieno (268), y apoyó a Claudio II en su ascenso al trono.10​ Claudio fue designado emperador y nombró a Aureliano como dux equitum, jefe de la caballería.
+
+Claudio II fue aclamado emperador por los soldados en las afueras de Mediolanum. El nuevo emperador ordenó inmediatamente al senado la deificación de Galieno,11​ en lo que parecería un primer movimiento para distanciarse políticamente del magnicidio. Siguió distanciándose de los autores materiales del mismo ordenando la ejecución de todos aquellos relacionados directamente con los hechos.11​ Por otro lado, Aureolo seguía bajo asedio en Milán, y aunque intentó la reconciliación con el nuevo emperador, Claudio se negó. El emperador hizo matar a Aureolo, y también en este caso existe alguna fuente que implica a Aureliano en los hechos.11​ Durante el reinado de Claudio, Aureliano fue promocionado rápidamente: recibió el mando de la caballería de élite de Dalmacia, y pronto alcanzó el mando supremo de toda la caballería, el mismo cargo que ocupaba el propio Claudio antes de ser aclamado emperador.11​
+
+Sin embargo, la guerra contra Aureolo y la subsecuente concentración de fuerzas en Italia permitió que los alamanes atravesaran el Limes Germanicus por el Danubio superior. Marcharon por Recia y a través de los Alpes sin oposición, entrando en el norte de Italia dedicándose al saqueo. A comienzos del año 269 el emperador Claudio marchó con Aureliano al norte a enfrentarse con los alamanes, a los que infligieron una decisiva derrota en la batalla del lago Benaco.12​ Mientras se encontraban terminando con el enemigo derrotado, llegaron noticias de los Balcanes informando de ataques a gran escala de hérulos, godos, gépidos y bastarnos.12​ Claudio envió inmediatamente a Aureliano a la zona para contener la invasión lo mejor posible hasta que Claudio llegara con el ejército principal.13​ Los godos asediaban Tesalónica cuando tuvieron noticia de la aproximación de Claudio, obligándoles a abandonar el asedio y saqueo del norte de Macedonia. Aureliano interceptó a los godos con la caballería dalmacia y logró una serie de victorias en pequeñas escaramuzas, en las que mató hasta unos 3.000 enemigos.13​ Continuó hostigando al enemigo, empujándolo hacia Mesia Superior, el lugar en el que Claudio había reunido a su ejército. La subsiguiente batalla no fue decisiva: se detuvo el avance de los godos pero los romanos sufrieron muchas bajas.13​ Claudio no podía arriesgarse a una segunda batalla campal, por lo que preparó una emboscada que tuvo éxito, matando a miles de enemigos. Sin embargo, la mayoría de los godos escaparon y comenzaron a retirarse hacia el sur, por el camino por el que habían llegado, y Aureliano pasó el resto del año hostigando a los godos con su caballería.14​ Con los godos estancados en territorio romano y sin provisiones, Aureliano percibió la desesperación del enemigo y lanzó un ataque con la totalidad de la caballería, matando y obligando a los supervivientes a huir a Tracia,14​ llegando hasta las montañas Haemus, en las que se vieron rodeados y estuvieron a punto de rendirse. Sin embargo, los godos lograron en un momento dado romper las líneas enemigas y escapar: Al parecer el emperador ignoró un aviso, puede que de Aureliano, y mantuvo consigo a la caballería, enviando tan sólo a la infantería a parar a los godos. Estos lograron matar a muchos soldados romanos y su victoria solamente se vio interrumpida cuando Aureliano cargó finalmente con la caballería. Sin embargo, los godos lograron huir y seguir su marcha por Tracia.14​
+
+En la primavera de 270 la situación seguía igual, con el ejército romano siguiendo de cerca la marcha de los godos. Sin embargo, estalló una plaga de efectos devastadores que se propagó por los Balcanes matando a muchos soldados de ambos ejércitos. El propio emperador cayó enfermo y tuvo que volver a los cuarteles de Sirmio, dejando a Aureliano al cargo de las operaciones contra los godos.14​ Aureliano aprovechó su caballería, dividiendo a los godos en pequeños grupos que eran más fáciles de derrotar. Para finales del verano los godos habían sido derrotados totalmente: todos los supervivientes fueron despojados del botín acumulado y fueron obligados a servir en el ejército romano o a asentarse como colonos en las regiones fronterizas.14​ Sin embargo, Aureliano tuvo poco tiempo para disfrutar la victoria, puesto que a finales de agosto llegó la noticia de que el emperador Claudio había fallecido.
+	</p>
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2020 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+
+	</script>
+</body>
+</html>
