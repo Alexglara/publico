@@ -1,0 +1,5 @@
+*PAGINA DE VENTAS DE KEYS* de videojuegos, que para el usuario sea mas barato y ese dinero vaya directamente a los desarrolladores, sin pasar por paginas de intermediarios 
+-Funciones y caracteristicas a tener en cuenta: 
+* interfaz simple y rapida
+* cambios de diferentes tipos de moneda
+* sistema de login.
