@@ -58,15 +58,15 @@ nav, h4{
 	     height:auto;
 		
 }
-/* Contenedores */
+/* ----------------------------------- Contenedores ------------------------------------------------*/
 .contenedor-top25{
     justify-items: center;
     align-items: center;
 
     border-radius: 10px;
     
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
     position: absolute;
     top: 50%;
     left:0;
@@ -89,10 +89,10 @@ nav, h4{
 
     border-radius: 10px;
     
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left:0;
     right: 0;
     margin-left: auto;
@@ -113,10 +113,10 @@ nav, h4{
 
     border-radius: 10px;
     
-    width: 500px;
-    height: 200px;
+    width: 700px;
+    height: 400px;
     position: absolute;
-    top: 120%;
+    top: 150%;
     left:0;
     right: 0;
     margin-left: auto;
@@ -131,7 +131,7 @@ nav, h4{
     
     
 }
-/* Contenedores  FINAL */
+/* ---------------------------------------- Contenedores  FINAL --------------------------------------------------*/
 .video{
     position: absolute;
     top: 15%;
@@ -149,10 +149,10 @@ nav, h4{
 /* -------------------------JUEGOS --------------------------------------- */
 .juego-1{
    
-    
+     border-radius: 10px;
     z-index: 1;
-   height: 40px;
-    width: 40px;
+   height: 160px;
+    width: 115px;
      
 }
 /* -------------------------JUEGOS FINAL--------------------------------------- */
@@ -173,7 +173,7 @@ li{
 .titulo-ofertas{
     text-align: center;
     position: absolute;
-    top: 115%;
+    top: 145%;
     left:0;
     right: 0;
     margin-left: auto;
@@ -182,7 +182,7 @@ li{
 .titulo-recomendados{
     text-align: center;
     position: absolute;
-    top: 85%;
+    top: 95%;
     left:0;
     right: 0;
     margin-left: auto;
@@ -191,7 +191,7 @@ li{
 /* ------------------------- TITULOS FINAL --------------------------------------- */
 /* ------------------------- SECTIONS  --------------------------------------- */
 .s1 {
-  background-image: url("./img/graciano-bg.png");
+  background-image: url("");
   background-size: cover;
 }
 .s1 h1 {
