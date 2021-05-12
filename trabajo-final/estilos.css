@@ -164,7 +164,9 @@ nav, h4{
 }
 .contenedor-inicio{
     text-align: center;
-    color: cadetblue;
+    color:whitesmoke;
+    text-shadow: 2px 2px black;
+    
     
     justify-items: center;
     align-items: center;
