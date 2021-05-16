@@ -9,13 +9,17 @@
        <link rel="stylesheet" href="./fullpage.min.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./inicio_de_sesion.js"></script>
     
     
        
       
     <title>Videojuegos</title>
   </head>
-  <body>
+  
+  
+  <body onload="controlar()">
       <div id="fullpage">
           <section class="section s1" >
     <header>
@@ -33,8 +37,18 @@
       </nav>
     </header>
     <div class=contenedor-login>
+      
 
-
+      <form method="POST" id="ingresar" name="miFormulario" onSubmit="return intentar()">
+        <label for="apellido">Usuario:</label>
+        <input type="text" id="usr" name="formUsuario" required><br>
+        <label for="apellido">Clave:</label>
+        <input type="text" id="clv" name="formClave" required><br>
+        <input type="submit" value="INGRESAR">
+      </form>
+      <button id="desconectar" onclick="desconectar()">DESCONECTAR</button>
+      <button onclick="desconectar()">LIMPIAR MEMORIA</button>
+        </div>
 
     </div>
     
