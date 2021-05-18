@@ -5,6 +5,41 @@
     font-family: 'Fredoka One', lighter;
 }
 
+.dropbtn {
+    background-color:cadetblue;
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: cadetblue}
+
 header{
     position: fixed;
     top:0%;
@@ -162,6 +197,83 @@ nav, h4{
     
 
 }
+
+.contenedor-dolly{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 10px;
+    
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: 20%;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;
+     
+    
+    
+  
+    
+
+}
+
+.contenedor-kent{
+    overflow: hidden;
+    
+    border-radius: 10px;
+    
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 20%;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;
+     
+    
+    
+  
+    
+
+}
+
+
+.div-atras{
+    padding-top:15px ;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    float: right;
+    
+    background-color: cadetblue;
+
+
+}
+.div-pdf{
+    padding-top:15px ;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+    
+    
+    background-color:cadetblue;
+
+
+}
 .contenedor-inicio{
     text-align: center;
     color:whitesmoke;
@@ -188,10 +300,10 @@ nav, h4{
     padding: 10px 10px 10px 10px;
     
     
-     
-    
-    
 }
+
+
+
 /* ---------------------------------------- Contenedores  FINAL --------------------------------------------------*/
 .video{
     position: absolute;
@@ -237,6 +349,16 @@ li{
     list-style: none;
 }
 /* ------------------------- TITULOS --------------------------------------- */
+.titulo-dolly{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .titulo{
     text-align: center;
     position: absolute;
