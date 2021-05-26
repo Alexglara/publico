@@ -44,17 +44,18 @@
     </header>
     <div class=contenedor-login>
       
-
-      <form method="GET" id="ingresar" name="miFormulario" onSubmit="return intentar()">
-        <label for="apellido">Usuario:</label>
-        <input type="text" id="usr" name="formUsuario" required><br>
-        <label for="apellido">Clave:</label>
-        <input type="text" id="clv" name="formClave" required><br>
-        <input type="submit" value="INGRESAR">
-      </form>
-      <button id="desconectar" onclick="desconectar()">DESCONECTAR</button>
-      <button onclick="desconectar()">LIMPIAR MEMORIA</button>
-        </div>
+     
+        <p class="parrafoCentro">
+          <form id="ingresar" name="miFormulario" onSubmit="return intentar()" method="get">
+            <label for="username"><h4>&nbsp Nombre de Usuario:</h4></label>
+            &nbsp &nbsp <input type="text" id="usr" name="usrIntentando" required>
+            <label for="password"><h4>&nbsp Contraseña:</h4></label>
+            &nbsp &nbsp <input type="text" id="clv" name="claveIntentando" required></br></br>
+            &nbsp &nbsp &nbsp <input class="botonSesion" type="submit" value="Iniciar Sesión">
+          </form> 
+          &nbsp &nbsp &nbsp <input type="button" id="desconectar" value="Cerrar Sesión" onclick="return desconectar()"></input>
+        </p>
+      
 
     </div>
     

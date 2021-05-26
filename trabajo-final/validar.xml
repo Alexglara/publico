@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <registrados>
-<usuario>
-<nombre>USR1</nombre>
-<clave>clave1</clave>
-</usuario>
-<usuario>
-<nombre>USR2</nombre>
-<clave>clave2</clave>
-</usuario>
-<usuario>
-<nombre>USR3</nombre>
-<clave>clave3</clave>
-</usuario>
-<usuario>
-<nombre>USR4</nombre>
-<clave>clave4</clave>
-</usuario>
-<usuario>
-<nombre>ALEJANDRO</nombre>
-<clave>GORDO</clave>
-</usuario>
+	<usuario>
+		<nombre>USR1</nombre>
+		<clave>clave1</clave>
+	</usuario>
+	<usuario>
+		<nombre>USR2</nombre>
+		<clave>clave2</clave>
+	</usuario>
+	<usuario>
+		<nombre>USR3</nombre>
+		<clave>clave3</clave>
+	</usuario>
+	<usuario>
+		<nombre>USR4</nombre>
+		<clave>clave4</clave>
+	</usuario>
+	<usuario>
+		<nombre>ALEJANDRO</nombre>
+		<clave>GORDO</clave>
+	</usuario>
 </registrados>
