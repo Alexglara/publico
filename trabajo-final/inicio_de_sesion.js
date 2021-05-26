@@ -93,7 +93,7 @@ function controlar(){
 		  miFuncion(this);
 		}
 	  };
-	  xhr.open("GET", "https://github.com/Alexglara/publico/blob/main/trabajo-final/validar.xml", true);
+	  xhr.open("GET", "https://alexglara.github.io/publico/trabajo-final/validar.xml", true);
 	  xhr.send();
 	}
 
@@ -121,12 +121,12 @@ function controlar(){
 	
 	function nombreUSR(){
 	if(sessionStorage.usrLogueado){
-		$("#mensajeUSR").text('Bienvenido ' + sessionStorage.getItem("usrLogueado"));
-		$("#mensajeSesion").text('Cerrar Sesión');
+		$("#mensajeUSR").text(sessionStorage.getItem("usrLogueado"));
+		//$("#mensajeSesion").text('Cerrar Sesión');
 	}
 	else{
-		$("#mensajeUSR").text('Usuario anónimo. Inicie sesión');
-		$("#mensajeSesion").text('Iniciar Sesión');
+		$("#mensajeUSR").text('Login');
+		//$("#mensajeSesion").text('Iniciar Sesión');
 	}
 	
 	

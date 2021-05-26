@@ -9,13 +9,14 @@
        <link rel="stylesheet" href="./fullpage.min.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<script src="./inicio_de_sesion.js"></script>
     
     
        
       
     <title>Videojuegos</title>
   </head>
-  <body>
+  <body onload="controlar()">
       <div id="fullpage">
           <section class="section s1" >
     <header>
@@ -34,7 +35,7 @@
               <a href="./Kent.html">Ken Burns</a>
               
             </div></li>
-          <li><a href="./login.html"> <img src=".\media\usuario.png" class="imagen-menu" >Login </a></li>
+            <li id="liMensaje"><img src=".\media\usuario.png" class="imagen-menu-login" ><a href="./login.html"   id="mensajeUSR">  </a></li>
         </ul>
       </nav>
     </header>
