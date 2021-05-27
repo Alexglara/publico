@@ -128,6 +128,8 @@ function controlar(){
 		$("#mensajeUSR").text('Login');
 		//$("#mensajeSesion").text('Iniciar Sesión');
 	}
+
+	
 	
 	
 }

@@ -11,6 +11,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="./inicio_de_sesion.js"></script>
+<script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
     
     
        
@@ -29,16 +35,20 @@
        
       <nav>
         <ul class="links-nav">
+          <li><a onclick="myFunction()"><img src=".\media\noche1.png" class="imagen-menu-noche" ></a></li>
           <li><a href="./index.html"><img src=".\media\inicio.png" class="imagen-menu" >Inicio </a></li>
           <li><a href="./tienda.html"><img src=".\media\tienda.png" class="imagen-menu" >Tienda</a></li>
-          <li><div class="dropdown">
-            <button class="dropbtn">Ejercicios Extra</button>
-            <div class="dropdown-content">
-              <a href="./dolly.html">Dolly Zoom</a>
-              <a href="./Kent.html">Ken Burns</a>
+            <li id="liMensaje"><img src=".\media\usuario.png" class="imagen-menu-login"  ><a href="./login.html"   id="mensajeUSR">  </a></li>
+            <li><a href="./creditos.html"><img src=".\media\creditos.png" class="imagen-menu" >Creditos </a></li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Ejercicios Extra</button>
+              <div class="dropdown-content">
+                <a href="./dolly.html">Dolly Zoom</a>
+                <a href="./Kent.html">Ken Burns</a>
+                <a href="https://drive.google.com/file/d/1wAB2XDY34IO5dL6pwWe9oxub5xk4zQHV/view?usp=sharing" target="_blank">Diagrama </a>
+                
+              </div></li>
               
-            </div></li>
-          <li id=liMensaje><img src=".\media\usuario.png" class="imagen-menu-login" ><a href="./login.html"   id="mensajeUSR">  </a></li>
         </ul>
       </nav>
     </header>
