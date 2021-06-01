@@ -93,7 +93,7 @@ function controlar(){
 		  miFuncion(this);
 		}
 	  };
-	  xhr.open("GET", "https://alexglara.github.io/publico/trabajo-final/validar.xml", true);
+	  xhr.open("GET", "https://alexglara.github.io/publico/proyectoweb/validar.xml", true);
 	  xhr.send();
 	}
 
